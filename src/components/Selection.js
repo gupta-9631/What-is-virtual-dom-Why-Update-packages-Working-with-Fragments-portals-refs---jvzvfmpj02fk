@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "./styles.Child.css"
+import "../styles.Child.css"
 
 
 
 const Selection= ({ applyColor })=>{
 
-    const [color, setColor]=useState({ background: " "});
+    const [color, setColor]=useState({ background: ""});
     const handleClick=()=>{
         applyColor(setColor);
     };
