@@ -5,7 +5,7 @@ import "./styles.Child.css"
 
 const Selection= ({ applyColor })=>{
 
-    const [color, setColor]=useState({ background: ""});
+    const [color, setColor]=useState({ background: " "});
     const handleClick=()=>{
         applyColor(setColor);
     };
